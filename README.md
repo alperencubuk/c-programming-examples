@@ -59,8 +59,8 @@ Başlangıçta daha küçük bir aralıkta (mesela 1-10) test edip 6'nın mükem
 
 Basit bir kullanıcı girişi ekranı kodlamanız istenmektedir. Programınız kullanıcıya kullanıcı adı ve şifre sorarak klavyeden bu bilgileri alacak, ardından programda önceden belirlenmiş kullanıcı adı ve şifre ile karşılaştırıp doğruluğunu kontrol edecektir.
 
-Kullanıcı Adı: admin
-Şifre: password
+- Kullanıcı Adı: admin
+- Şifre: password
 
 şeklinde giriş yapıldığında programınız ekrana giriş başarılı, aksi her türlü durumda (kullanıcı adı yanlışsa veya şifre yanlışsa) giriş başarısız yazmalıdır. Kullanıcı adı ve şifre bilgilerini char dizileri yardımıyla tutabilirsiniz. Karakter dizilerini bir döngü yardımıyla harf harf kontrol ederek karşılaştırabilirsiniz. (strncmp hazır fonksiyonunu kullanmayın.)
 

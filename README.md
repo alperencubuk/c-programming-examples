@@ -2,6 +2,8 @@
 
 Bu Repository **KTU CEC & KTU SEC** ortaklığında yürütülen **C Programlama Eğitimi** kapsamında eğitmeni ve mentörü olduğum sınıf için yazdığım C kodlarını içermektedir. Ders esnasında yazdığım kodları ve teslim süresi dolmuş ödevlerin çözümlerini bu Repository'den edinebilirsiniz. Her dersin sonunda Repository güncellenecektir.
 
+---
+
 # Ödevler
 
 Bu haftanın ödevleri aşağıdadır. Ödevlerin açıklamasında anlaşılmayan bir kısım veya ödevlerle ilgili kafanıza takılan herhangi bir şey olursa WhatsApp üzerinden iletişime geçebilirsiniz.
@@ -52,6 +54,15 @@ C hızlı bir dildir ve 1000 sayı için gerekli tüm hesaplamaları 1 saniyeden
 Sayının bölenlerini bulmak için mod alma işleminden yararlanabilirsiniz. Bir adet 1-1000 arası döngünüz bir adet ise o anki sayının bölenlerini bulacağınız döngünüz olması gerekiyor. (İç içe döngü)  
   
 Başlangıçta daha küçük bir aralıkta (mesela 1-10) test edip 6'nın mükemmel sayı olduğunu buldurmayı deneyebilirsiniz. Yada tek bir sayı alın klavyeden mükemmel mi diye o sayıyı kontrol etsin. 6 ve 28 için mükemmel sayı diyorsa mantığınız doğrudur daha sonra 1-1000 aralığında tüm sayılar için algoritmanızı çalıştırın.
+
+## 3. Ödev: Kullanıcı Girişi Ekranı
+
+Basit bir kullanıcı girişi ekranı kodlamanız istenmektedir. Programınız kullanıcıya kullanıcı adı ve şifre sorarak klavyeden bu bilgileri alacak, ardından programda önceden belirlenmiş kullanıcı adı ve şifre ile karşılaştırıp doğruluğunu kontrol edecektir.
+
+Kullanıcı Adı: admin
+Şifre: password
+
+şeklinde giriş yapıldığında programınız ekrana giriş başarılı, aksi her türlü durumda (kullanıcı adı yanlışsa veya şifre yanlışsa) giriş başarısız yazmalıdır. Kullanıcı adı ve şifre bilgilerini char dizileri yardımıyla tutabilirsiniz. Karakter dizilerini bir döngü yardımıyla harf harf kontrol ederek karşılaştırabilirsiniz. (strncmp hazır fonksiyonunu kullanmayın.)
 
 ---
 

@@ -64,6 +64,14 @@ Basit bir kullanıcı girişi ekranı kodlamanız istenmektedir. Programınız k
 
 şeklinde giriş yapıldığında programınız ekrana giriş başarılı, aksi her türlü durumda (kullanıcı adı yanlışsa veya şifre yanlışsa) giriş başarısız yazmalıdır. Kullanıcı adı ve şifre bilgilerini char dizileri yardımıyla tutabilirsiniz. Karakter dizilerini bir döngü yardımıyla harf harf kontrol ederek karşılaştırabilirsiniz. (strncmp hazır fonksiyonunu kullanmayın.)
 
+##4. Ödev: Project Euler 5
+
+1'den 10'a kadar olan bütün tamsayılara tam bölünebilen en küçük pozitif tamsayı 2520'dir.
+
+1'den 20'ye kadar olan bütün tamsayılara tam bölünebilen en küçük pozitif tamsayı kaçtır?
+
+Problemi çözecek C kodunu yazarak cevabı bulunuz.
+
 ---
 
 **Alperen Çubuk**

@@ -16,7 +16,7 @@ int main() {
 	for(i=0;i<N;i++) {
 		pay+=pow(sayilar[i]-ortalama,2);
 	}
-    float sapma=sqrt((float)pay/(N-1));
+	float sapma=sqrt((float)pay/(N-1));
 	printf("Sapma: %f\n",sapma);
 	return 0;
 }

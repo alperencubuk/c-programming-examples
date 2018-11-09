@@ -10,7 +10,7 @@ int main()
         printf("Cocuksunuz (0-18)");
     }
     else if(yas>=18 && yas<30) {
-        printf("Gecnsiniz (18-29)");
+        printf("Gencsiniz (18-29)");
     }
     else {
         printf("Yaslisiniz (30+)");

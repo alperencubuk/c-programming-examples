@@ -23,7 +23,17 @@ Bir sayının basamakları toplamının herhangi bir kuvveti sayının kendisine
 
 Kodunuz doğru çalışıyorsa belirtilen (2 - 1.000.000) aralık için ekrana 18 adet değer yazacaktır. Üs alma işlemi için pow() fonksiyonunu kullanmak yerine döngü ile üs hesaplatmanız tavsiye edilir.
 
-## 2. Ödev:
+## 2. Ödev: Dizileri Birleştir
+  
+Elimizde aşağıdaki şekilde tanımlanmış 3 adet dizi bulunuyor.
+
+- char dizi1[]="zeynep";
+- char dizi2[]="ilayda";
+- char dizi3[15];
+
+Programınız 1. ve 2. diziyi birleştirip 3. diziye atamalıdır. Programınız yalnızca dizi3'te tutulan veriyi (**zeynepilayda**) ekrana yazacaktır. dizi1 ve dizi2 için printf yapılmayacaktır.
+
+İlgili birleştirme işlemlerini yapacak döngüleri yazarak dizi3 içerisinde **zeynepilayda** tutulmasını sağlayınız. Ardından dizi3'ü yine bir döngü kullanarak ekrana yazdırınız.
 
 ---
 

@@ -39,8 +39,8 @@ Programınız 1. ve 2. diziyi birleştirip 3. diziye atamalıdır. Programınız
 
 Klavyeden bir metin alıp, alınan metindeki büyük harfleri küçük harfe, küçük harfleri büyük harfe çevirecek bir uygulama yazmanız istenmektedir.
 
-Örnek girdi: **Hello World 24 !**
-Örnek çıktı: **hELLO wORLD 24 !**
+- Örnek girdi: **Hello World 24 !**
+- Örnek çıktı: **hELLO wORLD 24 !**
 
 Aldığınız metni bir karakter dizisinde tutmanız gerekmektedir. Ardından dizi üzerinde gezinerek harflerin büyük harf mi küçük harf mi olduklarını tespit edip dönüşüm işlemini yapmalısınız. İsterseniz metninizin bulunduğu diziyi bozmayıp sonucu ayrı bir dizi olarak da tutabilirsiniz.
 
@@ -52,10 +52,10 @@ Harf dışı karakterlerde, örneğin sayılarda veya noktalama işaretlerinde h
 
 Klavyeden bir metin alıp, alınan metni ters çevirmeniz istenmektedir.
 
-Örnek girdi: **Hello World 24 !**
-Örnek çıktı: **! 42 dlroW olleH**
+- Örnek girdi: **Hello World 24 !**
+- Örnek çıktı: **! 42 dlroW olleH**
 
-Aldığınız metni bir karakter dizisinde tutmanız gerekmektedir. Ardından dizi üzerinde gezinerek diziyi ters şekilde farklı bir karakter dizisine yazmalısınız.
+Aldığınız metni bir karakter dizisinde tutmanız gerekmektedir. Ardından dizi üzerinde gezinerek diziyi ters şekilde farklı bir karakter dizisine yazmalısınız. Programınız ters metni ekrana yazdırmalıdır.
 
 ---
 

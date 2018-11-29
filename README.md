@@ -8,7 +8,7 @@ Bu Repository **KTU CEC & KTU SEC** ortaklığında yürütülen **C Programlama
 
 Bu haftanın ödevleri aşağıdadır. Ödevlerin açıklamasında anlaşılmayan bir kısım veya ödevlerle ilgili kafanıza takılan herhangi bir şey olursa WhatsApp üzerinden iletişime geçebilirsiniz.
 
-Ödevlerin Son Teslim Tarihi: **30.11.2018**
+Ödevlerin Son Teslim Tarihi: **07.12.2018**
 
 ## 1. Ödev: Sayının Basamakları Toplamının Kuvvetleri
   
@@ -34,6 +34,28 @@ Elimizde aşağıdaki şekilde tanımlanmış 3 adet dizi bulunuyor.
 Programınız 1. ve 2. diziyi birleştirip 3. diziye atamalıdır. Programınız yalnızca dizi3'te tutulan veriyi (**zeynepilayda**) ekrana yazacaktır. dizi1 ve dizi2 için printf yapılmayacaktır.
 
 İlgili birleştirme işlemlerini yapacak döngüleri yazarak dizi3 içerisinde **zeynepilayda** tutulmasını sağlayınız. Ardından dizi3'ü yine bir döngü kullanarak ekrana yazdırınız.
+
+## 3. Ödev: Büyük Küçük Harf Değiştirme
+
+Klavyeden bir metin alıp, alınan metindeki büyük harfleri küçük harfe, küçük harfleri büyük harfe çevirecek bir uygulama yazmanız istenmektedir.
+
+Örnek girdi: **Hello World 24 !**
+Örnek çıktı: **hELLO wORLD 24 !**
+
+Aldığınız metni bir karakter dizisinde tutmanız gerekmektedir. Ardından dizi üzerinde gezinerek harflerin büyük harf mi küçük harf mi olduklarını tespit edip dönüşüm işlemini yapmalısınız. İsterseniz metninizin bulunduğu diziyi bozmayıp sonucu ayrı bir dizi olarak da tutabilirsiniz.
+
+Harf dışı karakterlerde, örneğin sayılarda veya noktalama işaretlerinde hiçbir işlem yapılmayacaktır. Türkçe karakter desteği istenmemektedir. Türkçe karakterler için de işlem yapılmasına gerek yoktur.
+
+**İpucu:** ASCII tabloya göz atın. **http://www.asciitable.com/**
+
+## 4. Ödev: Girilen Metnin Tersi
+
+Klavyeden bir metin alıp, alınan metni ters çevirmeniz istenmektedir.
+
+Örnek girdi: **Hello World 24 !**
+Örnek çıktı: **! 42 dlroW olleH**
+
+Aldığınız metni bir karakter dizisinde tutmanız gerekmektedir. Ardından dizi üzerinde gezinerek diziyi ters şekilde farklı bir karakter dizisine yazmalısınız.
 
 ---
 

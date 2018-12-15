@@ -12,7 +12,10 @@ int main() {
 
 void asal1(int n) {
 	int i,j;
-	printf("2\n3\n");
+	if(n>=2)
+		printf("2\n");
+	if(n>=3)
+		printf("3\n");
 	for (i=5;i<=n;i+=2) {
 		int asal=1;
 		for(j=3;j<=sqrt(i);j++) {

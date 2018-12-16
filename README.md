@@ -15,17 +15,18 @@ Bu haftanın ödevleri aşağıdadır. Ödevlerin açıklamasında anlaşılmaya
 Fibonacci dizisi, her sayının kendisinden bir önceki sayı ile toplanması ile elde edilen sayılar serisidir. Başlangıçta sıfırıncı Fibonacci sayısı **0**, birinci Fibonacci sayısı **1** olarak kabul edilir.
 
 Fibonaccinin ilk 10 terimi:
-- 0. Fibonacci Sayısı: **0**
-- 1. Fibonacci Sayısı: **1**
-- 2. Fibonacci Sayısı: **1**
-- 3. Fibonacci Sayısı: **2**
-- 4. Fibonacci Sayısı: **3**
-- 5. Fibonacci Sayısı: **5**
-- 6. Fibonacci Sayısı: **8**
-- 7. Fibonacci Sayısı: **13**
-- 8. Fibonacci Sayısı: **21**
-- 9. Fibonacci Sayısı: **34**
-- 10. Fibonacci Sayısı: **55**
+
+0. Fibonacci Sayısı: **0**
+1. Fibonacci Sayısı: **1**
+2. Fibonacci Sayısı: **1**
+3. Fibonacci Sayısı: **2**
+4. Fibonacci Sayısı: **3**
+5. Fibonacci Sayısı: **5**
+6. Fibonacci Sayısı: **8**
+7. Fibonacci Sayısı: **13**
+8. Fibonacci Sayısı: **21**
+9. Fibonacci Sayısı: **34**
+10. Fibonacci Sayısı: **55**
 
 şeklindedir.
 

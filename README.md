@@ -8,54 +8,30 @@ Bu Repository **KTU CEC & KTU SEC** ortaklığında yürütülen **C Programlama
 
 Bu haftanın ödevleri aşağıdadır. Ödevlerin açıklamasında anlaşılmayan bir kısım veya ödevlerle ilgili kafanıza takılan herhangi bir şey olursa WhatsApp üzerinden iletişime geçebilirsiniz.
 
-Ödevlerin Son Teslim Tarihi: **07.12.2018**
+Ödevlerin Son Teslim Tarihi: **21.12.2018**
 
-## 1. Ödev: Sayının Basamakları Toplamının Kuvvetleri
-  
-Bir sayının basamakları toplamının herhangi bir kuvveti sayının kendisine eşitse o sayıyı ekrana yazdıran bir uygulama yazmanız istenmektedir. Programınız 2'den 1.000.000'a kadar tüm sayıları test ederek uygun sayıları ekrana yazacaktır.
+## 1. Ödev: Fibonacci Sayıları
 
-Örneğin;
-- (81) = (1+8)^2
-- (512) = (2+1+5)^3
-- (614656) = (6+5+6+4+1+6)^4
+Fibonacci dizisi, her sayının kendisinden bir önceki sayı ile toplanması ile elde edilen sayılar serisidir. Başlangıçta sıfırıncı Fibonacci sayısı **0**, birinci Fibonacci sayısı **1** olarak kabul edilir.
 
-Üs değeri için bir sınırlama yoktur. Yani sayının basamakları toplamının 50. kuvveti sayıya eşitse o sayıyı da yazdırmalısınız. Başlangıç için 10. kuvvete kadar bak gibi bir keyfi değer belirleyebilirsiniz. Ancak optimum algoritma için nereye kadar üs hesaplamaya devam etmeniz gerektiğine iyi karar verin.
+Fibonaccinin ilk 10 terimi:
+- 0. Fibonacci Sayısı: **0**
+- 1. Fibonacci Sayısı: **1**
+- 2. Fibonacci Sayısı: **1**
+- 3. Fibonacci Sayısı: **2**
+- 4. Fibonacci Sayısı: **3**
+- 5. Fibonacci Sayısı: **5**
+- 6. Fibonacci Sayısı: **8**
+- 7. Fibonacci Sayısı: **13**
+- 8. Fibonacci Sayısı: **21**
+- 9. Fibonacci Sayısı: **34**
+- 10. Fibonacci Sayısı: **55**
 
-Kodunuz doğru çalışıyorsa belirtilen (2 - 1.000.000) aralık için ekrana 18 adet değer yazacaktır. Üs alma işlemi için pow() fonksiyonunu kullanmak yerine döngü ile üs hesaplatmanız tavsiye edilir.
+şeklindedir.
 
-## 2. Ödev: Dizileri Birleştir
-  
-Elimizde aşağıdaki şekilde tanımlanmış 3 adet dizi bulunuyor.
+İstenilen Fibonacci sayısını döndüren fonksiyonu yazmanız istenmektedir. Örneğin fonksiyonunuz **fibonacci(7)** şeklinde çağrıldığında geriye **13** döndürmelidir.
 
-- char dizi1[]="zeynep";
-- char dizi2[]="ilayda";
-- char dizi3[15];
-
-Programınız 1. ve 2. diziyi birleştirip 3. diziye atamalıdır. Programınız yalnızca dizi3'te tutulan veriyi (**zeynepilayda**) ekrana yazacaktır. dizi1 ve dizi2 için printf yapılmayacaktır.
-
-İlgili birleştirme işlemlerini yapacak döngüleri yazarak dizi3 içerisinde **zeynepilayda** tutulmasını sağlayınız. Ardından dizi3'ü yine bir döngü kullanarak ekrana yazdırınız.
-
-## 3. Ödev: Büyük Küçük Harf Değiştirme
-
-Klavyeden bir metin alıp, alınan metindeki büyük harfleri küçük harfe, küçük harfleri büyük harfe çevirecek bir uygulama yazmanız istenmektedir.
-
-- Örnek girdi: **Hello World 24 !**
-- Örnek çıktı: **hELLO wORLD 24 !**
-
-Aldığınız metni bir karakter dizisinde tutmanız gerekmektedir. Ardından dizi üzerinde gezinerek harflerin büyük harf mi küçük harf mi olduklarını tespit edip dönüşüm işlemini yapmalısınız. İsterseniz metninizin bulunduğu diziyi bozmayıp sonucu ayrı bir dizi olarak da tutabilirsiniz.
-
-Harf dışı karakterlerde, örneğin sayılarda veya noktalama işaretlerinde hiçbir işlem yapılmayacaktır. Türkçe karakter desteği istenmemektedir. Türkçe karakterler için de işlem yapılmasına gerek yoktur.
-
-**İpucu:** ASCII tabloya göz atın. **http://www.asciitable.com/**
-
-## 4. Ödev: Girilen Metnin Tersi
-
-Klavyeden bir metin alıp, alınan metni ters çevirmeniz istenmektedir.
-
-- Örnek girdi: **Hello World 24 !**
-- Örnek çıktı: **! 42 dlroW olleH**
-
-Aldığınız metni bir karakter dizisinde tutmanız gerekmektedir. Ardından dizi üzerinde gezinerek diziyi ters şekilde farklı bir karakter dizisine yazmalısınız. Programınız ters metni ekrana yazdırmalıdır.
+Fonksiyonun geri döndürdüğü değeri ekrana yazdırmanız gerekmektedir. Tüm **printf** işlemleri **main**de yapılacaktır. Fonksiyon yalnızca gerekli hesaplamayı yapıp geriye bir sayı döndürmelidir.
 
 ---
 

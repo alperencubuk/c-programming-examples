@@ -60,7 +60,7 @@ Uygulamanızı fonksiyonlar halinde parça parça yazmanız istenmektedir. Topla
 
 **maxSatir** ve **minSutun** **global** değişkenler olduğundan doğrudan istediğiniz fonksiyon içerisinde kullanabilirsiniz. (Tekrar int maxSatir gibi bir tanımlama yapmadan)
 
-Ödevinizi [BURADAKİ](https://github.com/alperencubuk/C-Programming-Examples/blob/master/5.%20Hafta/Matrislerde%20Max-Min%20Satir-Sutun%20(TASLAK).c)` taslak kod üzerinde ilgili fonksiyonların içini doldurarak yapmanız istenmektedir. Fonksiyonların içerisi hariç kodda değişiklik yapmanız yasaktır. (Main'de hiçbir işlem yapmayacaksınız.)
+Ödevinizi [BURADAKİ](https://github.com/alperencubuk/C-Programming-Examples/blob/master/5.%20Hafta/Matrislerde%20Max-Min%20Satir-Sutun%20(TASLAK).c) taslak kod üzerinde ilgili fonksiyonların içini doldurarak yapmanız istenmektedir. Fonksiyonların içerisi hariç kodda değişiklik yapmanız yasaktır. (Main'de hiçbir işlem yapmayacaksınız.)
 
 ---
 

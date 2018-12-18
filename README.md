@@ -34,6 +34,34 @@ Fibonaccinin ilk 10 terimi:
 
 Fonksiyonun geri döndürdüğü değeri ekrana yazdırmanız gerekmektedir. Tüm **printf** işlemleri **main**de yapılacaktır. Fonksiyon yalnızca gerekli hesaplamayı yapıp geriye bir sayı döndürmelidir.
 
+## 2. Ödev: Matrislerde Max-Min Satir/Sutun
+  
+  Aşağıdaki matriste görüldüğü gibi bir matrisin satırlarındaki ve sütunlarındaki değerlerin toplamlarını hesaplayıp, toplamı en büyük satır ile toplamı en küçük sütunu bulmanız istenmektedir.
+  
+  1 2 3   =  **6**
+  4 5 6   =  **15**
+  7 8 9   =  **24**
+  || || ||
+**12**   **15**   **18**
+
+Yukarıdaki örnek için;
+En büyük satır 3. satır ve değeri 24'tür.
+En küçük sütun 1. sütun ve değeri 12'dir.
+
+Uygulamanızı fonksiyonlar halinde parça parça yazmanız istenmektedir. Toplam 4 fonksiyon aşağıdaki işlemleri yapacaktır.
+
+**setMatrisRandom:** Bu fonksiyon verilen matrisi 1-9 aralığında ürettiği rastgele değerler ile doldurmalıdır.
+
+**matrisYazdir:** Bu fonksiyon verilen matrisi ekrana matris biçiminde yazdırmalıdır.
+
+**satirToplamMax:** Bu fonksiyon toplamı maksimum olan satırın, toplam değerini geri döndürmelidir. Ayrıca Global olarak tanımlanmış **maxSatir** değişkenine toplamı maksimum olan satırın kaçıncı satır olduğu bilgisini atamalıdır.
+
+**sutunToplamMin:** Bu fonksiyon toplamı minimum olan sütunun, toplam değerini geri döndürmelidir. Ayrıca **global** olarak tanımlanmış **minSutun** değişkenine toplamı minimum olan sütunun kaçıncı sütun olduğu bilgisini atamalıdır.
+
+**maxSatir** ve **minSutun** **global** değişkenler olduğundan doğrudan istediğiniz fonksiyon içerisinde kullanabilirsiniz. (Tekrar int maxSatir gibi bir tanımlama yapmadan)
+
+Ödevinizi [BURADAKİ](https://github.com/alperencubuk/C-Programming-Examples/blob/master/5.%20Hafta/Matrislerde%20Max-Min%20Satir-Sutun%20(TASLAK).c)` taslak kod üzerinde ilgili fonksiyonların içini doldurarak yapmanız istenmektedir. Fonksiyonların içerisi hariç kodda değişiklik yapmanız yasaktır. (Main'de hiçbir işlem yapmayacaksınız.)
+
 ---
 
 **Alperen Çubuk**

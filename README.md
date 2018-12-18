@@ -38,11 +38,11 @@ Fonksiyonun geri döndürdüğü değeri ekrana yazdırmanız gerekmektedir. Tü
   
   Aşağıdaki matriste görüldüğü gibi bir matrisin satırlarındaki ve sütunlarındaki değerlerin toplamlarını hesaplayıp, toplamı en büyük satır ile toplamı en küçük sütunu bulmanız istenmektedir.
   
-  1 2 3   =  **6**
-  4 5 6   =  **15**
-  7 8 9   =  **24**
-  || || ||
-**12**   **15**   **18**
+-  1 2 3   =  **6**
+-  4 5 6   =  **15**
+-  7 8 9   =  **24**
+-  || || ||
+- **12**   **15**   **18**
 
 Yukarıdaki örnek için;
 En büyük satır 3. satır ve değeri 24'tür.

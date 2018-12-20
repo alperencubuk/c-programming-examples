@@ -36,32 +36,63 @@ int main() {
 }
 
 void setMatrisRandom(int satir, int sutun,int matris[][sutun]) {
-	// KODUNUZU BURAYA YAZIN
+	srand(time(NULL));
+	int i,j;
+	for(i=0;i<satir;i++) {
+		for(j=0;j<sutun;j++) {
+			matris[i][j]=1+rand()%9;
+		}
+	}
 }
 
 void matrisYazdir(int satir, int sutun, int matris[][sutun]) {
-	// KODUNUZU BURAYA YAZIN
+	int i,j;
+	for(i=0;i<satir;i++) {
+		for(j=0;j<sutun;j++) {
+			printf("%d  ",matris[i][j]);
+		}
+		printf("\n");
+	}
 }
 
 int satirToplamMax(int satir, int sutun, int matris[][sutun]) {
-	// KODUNUZU BURAYA YAZIN
+	int i,j,toplamlar[satir];
+	for(i=0;i<satir;i++) {
+		toplamlar[i]=0;
+	}
+	for(i=0;i<satir;i++) {
+		for(j=0;j<sutun;j++) {
+			toplamlar[i]+=matris[i][j];
+		}
+	}
+	int max=toplamlar[0];
+	for(i=1;i<satir;i++) {
+		if(toplamlar[i]>max) {
+			max=toplamlar[i];
+			maxSatir=i;
+		}
+	}
+	return max;
 }
 
 int sutunToplamMin(int satir, int sutun, int matris[][sutun]) {
-	// KODUNUZU BURAYA YAZIN
+	int i,j,toplamlar[sutun];
+	for(i=0;i<sutun;i++) {
+		toplamlar[i]=0;
+	}
+	for(i=0;i<sutun;i++) {
+		for(j=0;j<satir;j++) {
+			toplamlar[i]+=matris[j][i];
+		}
+	}
+	int min=toplamlar[0];
+	for(i=1;i<sutun;i++) {
+		if(toplamlar[i]<min) {
+			min=toplamlar[i];
+			minSutun=i;
+		}
+	}
+	return min;
 }
 
-/* ORNEK CIKTI:
-
-Satir: 4
-Sutun: 4
-
-3  5  6  3
-5  8  1  7
-2  4  8  7
-6  6  8  8
-
-(4. Satir) - Satir Max Toplam: 28
-(1. Sutun) - Sutun Min Toplam: 16
-
-*/
+// Alperen Cubuk
